@@ -12,9 +12,7 @@ html {
 img {
 	width: 100%;
 }
-.h1-marg-18 {
-	margin-top: 18rem;
-}
+
 /* HEADER */
 .chocoHead {
 	width: 30%;
@@ -197,8 +195,28 @@ h3 {
 }
 
 /* PAGE CONTACT */
+.h1-marg-18 {
+	margin-top: 18rem;
+}
+form {
+	margin: 4rem 0;
+}
+label {
+	margin-top: 1rem;
+}
+#news-letter {
+	margin-top: 1.5rem;
+}
+#info {
+	margin-top: 3.5rem;
+}
 #info select, input {
 	width: 100%;
+}
+@media screen and (max-width: 767px) {
+	#input-email {
+	margin-top: 1.5rem;
+}
 }
 #message input {
 	width: 100%;
