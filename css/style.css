@@ -6,14 +6,19 @@
 }
 html {
 	font-size: 62.5%;
+	font-family: "Helvetica Neue Light", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
 }
 img {
 	width: 100%;
 }
+.h1-marg-18 {
+	margin-top: 18rem;
+}
 /* HEADER */
 .chocoHead {
 	width: 30%;
-	margin: 25% 0 0 30%;
+	margin: 20% 0 0 30%;
 	 transform:rotate(-20deg);
 	-ms-transform:rotate(-20deg); /* Internet Explorer */
 	-moz-transform:rotate(-20deg); /* Firefox */
@@ -24,7 +29,7 @@ img {
 	font-size: 2.5rem;
 	width: 45%;
     font-family: 'Dancing Script', cursive;
-    margin: 35% 0 0 25%;
+    margin: 25% 0 0 30%;
     color: #B25528;
     text-align: center;
     transform:rotate(25deg);
@@ -41,12 +46,17 @@ img {
 		display: none;
 	}
 }
+.head-logo{
+	width: 80%;
+	margin: 0 auto;
+}
 /* NAVBAR */
 nav a {
 	color: #928D75;
-	font-family: 'Dancing Script', cursive;
-	font-weight: 400;
-	font-size: 2.5rem;
+/* 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+ */
+	font-weight: 100;
+	font-size: 1.5rem;
 }
 h3 {
 	font-size: 5rem;
@@ -144,37 +154,60 @@ h3 {
 	}
 }
 /* SECTION GALLERIE */
-h2 {
-	font-family: 'Dancing Script', cursive;
-}
 #gallery {
 	margin-top: 3rem;
 }
-#gallery .col-md-4 {
+#gallery img {
+	height: 205px;
+}
+#gallery h3 {
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+.simple-gal {
 	margin: 1rem 0;
+	/* border: solid red 1px; */
+	padding: 3.5rem;
 }
-#gallery .col-md-4 div{
-	height: 500px;
-	padding: 1rem;
+.simple-gal-pad {
+	/* border: solid 1px blue; */
+}
+.simple-gal-pad p {
+	margin: 3rem;
+	font-size: 1.7rem;
+}
+.simple-gal-pad .row div {
+	border: grey solid 1px;
+	border-width: 1px 0;
+	padding: 1rem 0;
+}
+.pad-one {
+	padding: 0 1.2rem;
+}
+.pad-one a{
+	text-decoration: none;
+	color: grey;
+	padding: 1.2rem 3.8rem;
+	text-transform: uppercase;
+}
+.pad-one a:hover {
+	/* border-radius: 5px; */
+	background-color: #928D75;
+	color: white;
+}
 
+/* PAGE CONTACT */
+#info select, input {
+	width: 100%;
 }
-.tab1 {
-	background: #ffffff url("../img/gallery/tablette12.png") no-repeat center;
+#message input {
+	width: 100%;
 }
-.tab2 {
-	background: #ffffff url("../img/gallery/3.jpg") no-repeat center;
+#message textarea {
+	width: 100%;
 }
-.tab3 {
-	background: #ffffff url("../img/gallery/tablette22.png") no-repeat center;
-}
-.tab4 {
-	background: #ffffff url("../img/1.jpg") no-repeat center;
-}
-.tab5 {
-	background: #ffffff url("../img/gallery/tablette32.png") no-repeat center;
-}
-.tab6 {
-	background: #ffffff url("../img/4.jpg") no-repeat center;
+#message .btn {
+	margin-top: 1rem;
 }
 
 /* FOOTER */
@@ -220,26 +253,26 @@ footer p {
 }
 @media screen and (min-width: 361px) and (max-width: 768px){
 	.contact h3 {
-		font-size: 3rem;
+		font-size: 2rem;
 	}
 	footer p {
-		font-size: 1.8rem;
-		line-height: 2rem;
+		font-size: 1.3rem;
+		line-height: 1.4rem;
 	}
 }
 @media screen and (min-width: 769px){
 	.contact h3 {
-		font-size: 3rem;
+		font-size: 2rem;
 	}
 	.contact p {
-		font-size: 1.7rem;
-		line-height: 2rem;
+		font-size: 1.4rem;
+		line-height: 1.6rem;
 	}
 }
 /* CALENDRIER du FOOTER */
 .atelier {
 	width: 70%;
-	margin: 2.5rem auto;
+	margin: 2.5rem auto 0 auto;
 }
 .atelier a {
 	text-decoration: none;
