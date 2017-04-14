@@ -193,7 +193,23 @@ h3 {
 	background-color: #928D75;
 	color: white;
 }
-
+/* MRTXOKOLA */
+#txokola h1 {
+	margin-bottom: 4rem;
+}
+#txokola h2 {
+	font-size: 2rem;
+	margin-top: 0;
+}
+.etiquette {
+	margin-bottom: 5rem;
+}
+.etiquette p {
+	font-size: 1.3rem;
+}
+.etiquette img {
+	height: 265px;
+}
 /* PAGE CONTACT */
 .h1-marg-18 {
 	margin-top: 18rem;
