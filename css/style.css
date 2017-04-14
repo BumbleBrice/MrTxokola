@@ -210,9 +210,9 @@ label {
 #info {
 	margin-top: 3.5rem;
 }
-#info select, input {
+/* #info select, input {
 	width: 100%;
-}
+} */
 @media screen and (max-width: 767px) {
 	#input-email {
 	margin-top: 1.5rem;
